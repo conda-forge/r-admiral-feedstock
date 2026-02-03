@@ -1,4 +1,4 @@
-{% set version = "1.4.0" %}
+{% set version = "1.4.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/admiral_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/admiral/admiral_{{ version }}.tar.gz
-  sha256: 9857715b067f3a7c4b2cb8090fd6b92d438b4c54facc01ba4f3a02b1a17dbcf3
+  sha256: 05031ec3cd48f1c6f01f0d117d55d1b5fc5d06ad9fc6d8c9ea24dbc2507ab127
 
 build:
   number: 0
@@ -63,8 +63,8 @@ test:
 about:
   home: https://pharmaverse.github.io/admiral/cran-release/, https://github.com/pharmaverse/admiral
   license: Apache-2.0
-  summary: A toolbox for programming Clinical Data Interchange Standards Consortium (CDISC) compliant Analysis Data Model (ADaM) datasets in R. ADaM datasets are a mandatory part of any New Drug or Biologics License Application submitted to the United States Food and Drug Administration (FDA). Analysis derivations are implemented
-    in accordance with the "Analysis Data Model Implementation Guide" (CDISC Analysis Data Model Team, 2021, <https://www.cdisc.org/standards/foundational/adam>).
+  summary: A toolbox for programming Clinical Data Interchange Standards Consortium (CDISC) compliant Analysis Data Model (ADaM) datasets in R. ADaM datasets are a mandatory part of any New Drug or Biologics License Application submitted to the United States Food and Drug Administration (FDA). Analysis derivations are 
+    implemented in accordance with the "Analysis Data Model Implementation Guide" (CDISC Analysis Data Model Team, 2021, <https://www.cdisc.org/standards/foundational/adam>).
   license_family: APACHE
   license_file:
     - LICENSE-2.0.txt
