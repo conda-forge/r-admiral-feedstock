@@ -3,11 +3,13 @@ About r-admiral-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-admiral-feedstock/blob/main/LICENSE.txt)
 
-Home: https://pharmaverse.github.io/admiral/cran-release/, https://github.com/pharmaverse/admiral
+Home: https://pharmaverse.github.io/admiral/cran-release/
 
 Package license: Apache-2.0
 
 Summary: A toolbox for programming Clinical Data Interchange Standards Consortium (CDISC) compliant Analysis Data Model (ADaM) datasets in R. ADaM datasets are a mandatory part of any New Drug or Biologics License Application submitted to the United States Food and Drug Administration (FDA). Analysis derivations are implemented in accordance with the "Analysis Data Model Implementation Guide" (CDISC Analysis Data Model Team, 2021, <https://www.cdisc.org/standards/foundational/adam>).
+
+Development: https://github.com/pharmaverse/admiral
 
 Current build status
 ====================
