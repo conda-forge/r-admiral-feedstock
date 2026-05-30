@@ -28,7 +28,7 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
-    - r-admiraldev >=1.3.1
+    - r-admiraldev >=1.4.0
     - r-cli >=3.6.2
     - r-dplyr >=1.1.1
     - r-hms >=0.5.3
@@ -42,7 +42,7 @@ requirements:
     - r-tidyselect >=1.1.0
   run:
     - r-base
-    - r-admiraldev >=1.3.1
+    - r-admiraldev >=1.4.0
     - r-cli >=3.6.2
     - r-dplyr >=1.1.1
     - r-hms >=0.5.3
@@ -61,7 +61,8 @@ test:
     - "\"%R%\" -e \"library('admiral')\""  # [win]
 
 about:
-  home: https://pharmaverse.github.io/admiral/cran-release/, https://github.com/pharmaverse/admiral
+  home: https://pharmaverse.github.io/admiral/cran-release/
+  dev_url: https://github.com/pharmaverse/admiral
   license: Apache-2.0
   summary: A toolbox for programming Clinical Data Interchange Standards Consortium (CDISC) compliant Analysis Data Model (ADaM) datasets in R. ADaM datasets are a mandatory part of any New Drug or Biologics License Application submitted to the United States Food and Drug Administration (FDA). Analysis derivations are 
     implemented in accordance with the "Analysis Data Model Implementation Guide" (CDISC Analysis Data Model Team, 2021, <https://www.cdisc.org/standards/foundational/adam>).
