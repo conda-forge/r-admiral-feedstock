@@ -28,7 +28,7 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
-    - r-admiraldev >=1.4.0
+    - r-admiraldev >=1.5.0
     - r-cli >=3.6.2
     - r-dplyr >=1.1.1
     - r-hms >=0.5.3
@@ -42,7 +42,7 @@ requirements:
     - r-tidyselect >=1.1.0
   run:
     - r-base
-    - r-admiraldev >=1.4.0
+    - r-admiraldev >=1.5.0
     - r-cli >=3.6.2
     - r-dplyr >=1.1.1
     - r-hms >=0.5.3
