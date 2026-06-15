@@ -1,4 +1,4 @@
-{% set version = "1.4.2" %}
+{% set version = "1.5.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/admiral_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/admiral/admiral_{{ version }}.tar.gz
-  sha256: 72874d11bb097c604b2e21652b7aa1927df4971520d1e63d3b258b2eebaeee33
+  sha256: 75cebf70eeae3c102b94e0121d7af5062390c9bbc3a3dfac2fb2744a16d0e0dc
 
 build:
   number: 0
@@ -28,7 +28,7 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
-    - r-admiraldev >=1.4.0
+    - r-admiraldev >=1.5.0
     - r-cli >=3.6.2
     - r-dplyr >=1.1.1
     - r-hms >=0.5.3
@@ -42,7 +42,7 @@ requirements:
     - r-tidyselect >=1.1.0
   run:
     - r-base
-    - r-admiraldev >=1.4.0
+    - r-admiraldev >=1.5.0
     - r-cli >=3.6.2
     - r-dplyr >=1.1.1
     - r-hms >=0.5.3
